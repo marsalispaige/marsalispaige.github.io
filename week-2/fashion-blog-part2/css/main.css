@@ -1,0 +1,195 @@
+body{
+
+	font-family: lato;
+	line-height: 1.5em;
+}
+
+#container{
+
+	padding: 54px;
+	border-left: 6px solid #dddddd;
+}
+
+#header h1{
+	color: #DB0000;
+	font-weight: normal;
+	font-size: 50px;
+	margin: 0 10px 0 0;
+	float: left;
+}
+
+#header h3{
+	font-weight: 500;
+	font-size: 25px;
+	margin: 0 0 15px 0;
+	vertical-align: bottom;
+	color: #878487;
+	padding-top: 10px;
+
+
+}
+
+
+
+
+#header{
+	margin-bottom: 10px;
+}
+
+.navlinks a{
+	width: 160px;
+	padding: 15px;
+	float: left;
+	margin-right: 1px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+
+img.postimg{
+	width: 100%;
+	margin-top: 0px;
+}
+
+.postdate{
+	color: #C7C8C8;
+	font-weight: normal;
+	font-size: 28px;
+	margin: 50px 0 20px 0;
+}
+
+.posttitle{
+	font-weight: normal;
+	font-size: 35px;
+	margin:0 0 20px 0;
+
+}
+
+.postcontent{
+	font-size: 18px;
+}
+
+#post{
+	border-bottom: 1px solid #C7C8C8;
+
+}
+
+#main {
+	margin: 0 0 40px 0;
+	width: 800px;
+	float: left;
+
+}
+
+.postcont{
+	margin: 0 0 20px 0;
+	text-align: right;
+	color: #DB0000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#footercontainer ul li{
+	display: inline;
+	color: #7E8285;
+	font-size: 18px;
+	margin:0;
+	text-decoration: none;
+	font-weight: normal;
+	padding: 0px;
+
+}
+#footercontainer ul{padding: 0}
+
+#footercontainer a{
+	color: #DB0000;
+	font-size: 18px;
+	margin:0;
+	text-decoration: none;
+	font-weight: normal;
+
+}
+
+
+#footercontainer a:hover{
+	color: #aa0000;
+}
+#footer{
+
+	clear: both;
+	margin:0;
+}
+
+#rightrail {
+	width: 300px;
+	float: right;
+	margin-top: 0 auto 0 auto;
+	text-align: center;
+	padding:10px;
+
+}
+
+h4.aboutus {
+	text-align: left;
+	color: #7E8285;
+}
+
+h4.poppost {
+	text-align: left;
+	color: #7E8285;
+}
+
+.aboutuscontent{
+	text-align: left;
+}
+
+.aboutuscont{
+	text-decoration: none;
+	text-align: right;
+	color: #DB0000;
+	margin: 0 0 20px 0;
+	font-weight: bold;
+}
+
+#rightrail-aboutus{
+	border-bottom: 1px solid #C7C8C8; 
+	margin: 50px 0 20px 0;
+}
+
+#rightrail-ad{
+	margin: 0 0 20px 0;
+	border-bottom: 1px solid #C7C8C8;
+}
+
+#rightrail-ad img{
+	margin:0 0 20px 0;
+}
+
+#poppostcontent a{
+	text-decoration: none;
+	color: #DB0000;
+	text-align: left;
+	font-size: 16px;
+}
+
+#poppostcontent li{
+	color: #7E8285;
+}
+
+span{
+	color: #DDDDDD;
+	font-size: 75px;
+	line-height: 60px;
+	float: left;
+	padding-top: 4px;
+
+}
+
+
+
+
+
