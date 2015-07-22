@@ -172,6 +172,9 @@ footer{
 
 .footerlist{
 	padding: 5px;
+	display: block;
+	text-decoration: none;
+	color: #333333;
 }
 
 
