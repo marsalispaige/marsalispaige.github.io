@@ -114,16 +114,14 @@ footer{
 }
 
 #calltoaction p{
-	width: 70%;
+
 	padding: 15px;
-	padding-left: 25px;
-	display: inline-block;
 	font-size: 18px;
 }
 
 #calltoactionbutton{
 	float: right;
-	margin: 20px;
+	margin: 30px;
 }
 
 #column-3 {
