@@ -1,0 +1,49 @@
+#main {
+
+	width: 720px;
+	margin: 20px auto;
+	background-color: #F4F1BB;
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid black;
+	text-align: center;
+	font-family: Verdana;
+	box-shadow: 0px 0px 3px black;
+	color: #011627;
+
+
+}
+
+.convertBox{
+
+margin: 10px auto;
+padding: 15px;
+background-color: #FDFFFC;
+width: 300px;
+height: 300px;
+text-align: center;
+border-radius: 500px;
+border: 6px solid black;
+box-shadow: 0px 0px 3px black;
+}
+
+#convertBox1{
+	float: left;
+}
+
+
+#convertBox2{
+	float: right;
+}
+
+#convertBox1 h2{
+	padding-top: 90px;
+
+}
+
+#convertBox2 h2{
+	padding-top: 90px
+}
+
+
