@@ -1,12 +1,3 @@
-var output = 0;
-var add10 = 10;
-var add20 = 20;
-var add30 = 30;
-var sub10 = -10;
-var sub20 = -20;
-var sub30 = -30;
-var cal;
-
 
 document.getElementById("a10").onclick = function(){
 		var num = Number(document.getElementById("out").innerHTML);
@@ -74,6 +65,12 @@ document.getElementById("out").style.backgroundColor = "red";
 document.getElementById("blue").onclick = function(){
 		
 		document.getElementById("out").style.backgroundColor = "blue";
+
+};
+
+document.getElementById("out").onclick = function(){
+		
+		document.getElementById("out").style.backgroundColor = "white";
 
 
 };
