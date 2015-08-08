@@ -32,6 +32,8 @@ body{
 	width: 70%;
 }
 
+
+
 #domainName {
 	float: left;
 	font-size: 32px;
@@ -150,6 +152,12 @@ body{
 	background-image: url("../images/gallery_jules_8.jpeg");
 	background-repeat: no-repeat;
 	background-size: 150px 150px;
+}
+
+#hometitle, #biotitle{
+	width: 70%;
+	margin: auto;
+	border-bottom: 1px solid #E7E7E7; 
 }
 
 #homeintro, #biointro{
