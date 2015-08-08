@@ -1,0 +1,174 @@
+body{
+	background-color: #000;
+}
+#container{
+	background-color: #000;
+	font-family:'Hammersmith One', cursive;
+}
+
+#header{
+
+	background-color: #FFDF41;
+	overflow: hidden;
+	padding: 20px;
+	border-bottom: 1px solid #E4E4E4;
+}
+
+#logo{
+	width: 35px;
+	height: 35px;
+	margin-left: 5px;
+}
+
+#leftNav {
+	width: 30%;
+	float: left;
+	background-color: #000;
+}
+
+#main {
+	float: right;
+	background-color: #fff;
+	width: 70%;
+}
+
+#domainName {
+	float: left;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+#profilename {
+	float: right;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 8px;
+	margin-right: 50px;
+	color: #fff;
+	border-bottom: 1px solid #BBB4B4;
+}
+
+#navbox{
+	margin: 100px auto;
+	width: 25%;
+}
+
+#navbox a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+	padding: 10px 0 10px 0;
+}
+
+#navbox a:hover{
+	color: #FF0401;
+}
+
+#profilepic{
+	width: 200px;
+	height: 200px;
+	border: 15px solid #F4F4F4;
+	border-radius: 200px;
+	background-image: url("../images/jules_profile.jpg");
+	background-repeat: no-repeat;
+	box-shadow: 1px 1px 5px #000;
+	margin: 50px auto 20px auto;
+
+}
+
+#galleryblock{
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+.galleryrow{
+	overflow: hidden;
+	margin: 10px 0;
+}
+.gallerypic{
+	width: 150px;
+	height: 150px;
+	float: left;
+	border: 2px solid #ECECEC;
+	background-color: #fff;
+	margin: 0 10px;
+	border-radius: 5px;
+}
+
+.gallerypic:hover{
+	border: 2px solid #EACF63;
+	box-shadow: 0 0 5px #EACF63;
+}
+
+#galleryrow1pos1{
+	background-image: url("../images/gallery_jules_1.jpg");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+}
+
+#galleryrow1pos2{
+	background-image: url("../images/gallery_jules_2.jpg");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+}
+
+#galleryrow1pos3{
+	background-image: url("../images/gallery_jules_4.jpg");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+}
+
+
+#galleryrow1pos4{
+	background-image: url("../images/gallery_jules_9.jpg");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+}
+
+#galleryrow2pos1{
+	background-image: url("../images/gallery_jules_5.jpg");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+}
+
+#galleryrow2pos2{
+	background-image: url("../images/gallery_jules_6.jpg");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+}
+
+#galleryrow2pos3{
+	background-image: url("../images/gallery_jules_7.png");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+}
+
+#galleryrow2pos4{
+	background-image: url("../images/gallery_jules_8.jpeg");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+}
+
+#homeintro, #biointro{
+	margin: 0 auto;
+	width: 70%;
+	border-bottom: 1px solid #E7E7E7;
+	padding: 15px;
+	color: #717171;
+
+}
+
+#quote{
+	margin: 30px auto;
+	display: block;
+	font-style: italic;
+	color: #B3B3B3;
+}
+
+#youtubeEmbed{
+	margin: 0 20%;
+}
+
