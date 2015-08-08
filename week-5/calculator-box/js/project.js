@@ -57,7 +57,10 @@ else if ($(this).attr("id") == "blue") {
 
 
 else	{
-	$("#out").css("background-color", "white")
+	$("#out").css("background-color", "white");
+	total=0;
+	$("#out").html(total);
+
 }
 
 });
