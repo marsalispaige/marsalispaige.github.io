@@ -1,104 +1,67 @@
+$(document).ready(function(){
+	var total = 0;
 
-document.getElementById("a10").onclick = function(){
-		var num = Number(document.getElementById("out").innerHTML);
-
-		output = num + 10;
-		document.getElementById("out").innerHTML= output;
-
-
-};
-
-document.getElementById("a20").onclick = function(){
-		var num = Number(document.getElementById("out").innerHTML);
-
-		output = num + 20;
-		document.getElementById("out").innerHTML= output;
+	//Do this for a10, a20, a30, n10, n20, n30
+	$("#a10, #a20, #a30, #n10, #n20, #n30, #red, #Blue, #out").click(function(){
+		//add 10 to the total
 
 
-};
+if ($(this).attr("id") == "a10") {
 
-document.getElementById("a30").onclick = function(){
-		var num = Number(document.getElementById("out").innerHTML);
+	total = 10 + total;
+	$("#out").html(total)
+}
+	
 
-		output = num + 30;
-		document.getElementById("out").innerHTML= output;
+else if ($(this).attr("id") == "a20") {
 
+	total = 20 + total;
+	$("#out").html(total)
+	}
 
-};
+else if ($(this).attr("id") == "a30") {
 
+	total = 30 + total;
+	$("#out").html(total)
+	}
 
-document.getElementById("n10").onclick = function(){
-		var num = Number(document.getElementById("out").innerHTML);
+else if ($(this).attr("id") == "n10") {
 
-		output = num - 10;
-		document.getElementById("out").innerHTML= output;
-
-
-};
-
-document.getElementById("n20").onclick = function(){
-		var num = Number(document.getElementById("out").innerHTML);
-
-		output = num - 20;
-		document.getElementById("out").innerHTML= output;
+	total = -10 + total;
+	$("#out").html(total)
+	}
 
 
-};
+else if ($(this).attr("id") == "n20") {
 
-document.getElementById("n30").onclick = function(){
-		var num = Number(document.getElementById("out").innerHTML);
+	total = -20 + total;
+	$("#out").html(total)
+	}
 
-		output = num - 30;
-		document.getElementById("out").innerHTML= output;
+else if ($(this).attr("id") == "n30") {
 
-
-};
-
-document.getElementById("red").onclick = function(){
-
-document.getElementById("out").style.backgroundColor = "red";
+	total = -30 + total;
+	$("#out").html(total)
+	}
 
 
-};
+else if ($(this).attr("id") == "red") {
+
+	$("#out").css("background-color", "red")
+	}
+
+else if ($(this).attr("id") == "blue") {
+
+	$("#out").css("background-color", "blue")
+	}
 
 
-document.getElementById("blue").onclick = function(){
+else	{
+	$("#out").css("background-color", "white")
+}
+
+});
 		
-		document.getElementById("out").style.backgroundColor = "blue";
 
-};
-
-document.getElementById("out").onclick = function(){
 		
-		document.getElementById("out").style.backgroundColor = "white";
-
-
-};
-
-/*
-$(".add").click(function(){
-	if ($(this).attr("a10")) {
-
-		output = 10 + output;
-		$("#out").html(output);
-
-
-	}
-
-	else if ($(this).attr("a20")) {
-		output = add20 + output;
-		$("#out").html(output);
-
-	}
-
-	else {
-		output = add30 + output;
-		$("#out").html(output);
-
-	}
-
-});*/
-
-
-
-
+});
