@@ -2,7 +2,7 @@ $(document).ready(function(){
 	var total = 0;
 
 	//Do this for a10, a20, a30, n10, n20, n30
-	$("#a10, #a20, #a30, #n10, #n20, #n30, #red, #Blue, #out").click(function(){
+	$("#a10, #a20, #a30, #n10, #n20, #n30, #red, #blue, #out").click(function(){
 		//add 10 to the total
 
 
