@@ -1,5 +1,37 @@
 $(document).ready(function(){
 
+		$("#sun").click(function(){
+
+			$("#sun").animate({
+					"left": "-30%",
+					"top": "50%"
+					},5000);
+			$("#night").animate({
+					"opacity": ".75"
+					},6000);
+			$("#moon").animate({
+					"top": "10%",
+					"left": "50%",
+					"margin-left": "-65px"
+					},5000);
+			$("#human").animate({
+					"top": "63%",
+					"width": "2%"
+					},8000);
+			$("#rooster").animate({
+					"top": "63%",
+					"width": "2%",
+					"left": "94%"
+					},8000);
+			$("#lamb").animate({
+					"top": "64%",
+					"width": "2%",
+					"left": "70%"
+					},8000);
+
+		});
+
+
 	$("#moon").click(function(){
 		
 		$("#cow").animate({
@@ -25,7 +57,7 @@ $(document).ready(function(){
 					},6000);
 				$("#sun").animate({
 					"top": "10%",
-					"left": "50%",
+					"left": "47%",
 					"margin-left": "-65px"
 					},5000);
 				$("#human").animate({
@@ -56,34 +88,5 @@ $(document).ready(function(){
 			});
 		});
 
-	$("#sun").click(function(){
 
-			$("#sun").animate({
-					"left": "-30%",
-					"top": "50%"
-					},5000);
-			$("#night").animate({
-					"opacity": ".75"
-					},6000);
-			$("#moon").css("left","100%").animate({
-					"top": "10%",
-					"left": "50%",
-					"margin-left": "-65px"
-					},5000);
-			$("#human").animate({
-					"top": "63%",
-					"width": "2%"
-					},8000);
-			$("#rooster").animate({
-					"top": "63%",
-					"width": "2%",
-					"left": "94%"
-					},8000);
-			$("#lamb").animate({
-					"top": "64%",
-					"width": "2%",
-					"left": "70%"
-					},8000)
-
-		});
 	});
