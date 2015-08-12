@@ -1,12 +1,39 @@
 $(document).ready(function(){
-	var total = 0;
+	$(".math").click(function(){
+		$("#white").html(parseInt($("#white").html())+parseInt($(this).html()))
+	});
+	$(".colorChange").click(function(){
+		$("#white").css("background-color", $(this).attr("id"));
+		if ($(this).attr("id") == "white") {
+			$("#white").html(0);
+		};
+	});
+});
+
+
+/*	var total = 0;
 
 	//Do this for a10, a20, a30, n10, n20, n30
 	$("#a10, #a20, #a30, #n10, #n20, #n30, #red, #blue, #out").click(function(){
 		//add 10 to the total
 
+if ($(this).attr("class") == "math") {
+total = total + parseInt($(this).html());
+$("#out").html(total);
+}
 
-if ($(this).attr("id") == "a10") {
+else if ($(this).attr("id") == "out") {
+	total = 0;
+	$("#out").html(total);
+	$("#out").css("background-color", "white");
+
+}
+
+else	{$("#out").css("background-color", $(this).attr("id"));
+};*/
+
+
+/*if ($(this).attr("id") == "a10") {
 
 	total = 10 + total;
 	$("#out").html(total)
@@ -61,10 +88,8 @@ else	{
 	total=0;
 	$("#out").html(total);
 
-}
-
-});
-		
+}*/
 
 		
-});
+
+		
