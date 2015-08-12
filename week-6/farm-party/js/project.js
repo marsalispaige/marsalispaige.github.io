@@ -51,7 +51,9 @@ $(document).ready(function(){
 				$("#cow2").css("z-index","11").animate({
 					"left":"-20%",
 				},7000);
-			})
+				$("body").append("<h1 id='party'>Farm Party</h1>")
+				.animate({"letter-spacing":"10px"},1000);
+			});
 		});
 
 	$("#sun").click(function(){
