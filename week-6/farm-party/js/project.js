@@ -1,18 +1,20 @@
 $(document).ready(function(){
 
 		$("#sun").click(function(){
-
+			$("#moon").css({"left":"100%","top":"50%"});
+			$("#cow").css({"left":"-15%","top":"62%"});
+			$("#night").css("z-index","10");
+			$("#party").remove();
 			$("#sun").animate({
 					"left": "-30%",
 					"top": "50%"
 					},5000);
 			$("#night").animate({
-					"opacity": ".75"
+					"opacity": ".60",
 					},6000);
 			$("#moon").animate({
-					"top": "10%",
-					"left": "50%",
-					"margin-left": "-65px"
+					"top": "15%",
+					"left": "45%",
 					},5000);
 			$("#human").animate({
 					"top": "63%",
@@ -33,7 +35,7 @@ $(document).ready(function(){
 
 
 	$("#moon").click(function(){
-		
+		$("#sun").css({"left":"100%","top":"65%"});
 		$("#cow").animate({
 			"left": "20%"
 		},800)
@@ -53,7 +55,8 @@ $(document).ready(function(){
 					"top": "50%"
 					},5000);
 				$("#night").animate({
-					"opacity": ".00"
+					"opacity": ".00",
+					"z-index": "1"
 					},6000);
 				$("#sun").animate({
 					"top": "10%",
@@ -85,7 +88,9 @@ $(document).ready(function(){
 				},7000);
 				$("body").append("<h1 id='party'>Farm Party</h1>")
 				.animate({"letter-spacing":"10px"},1000);
+
 			});
+		
 		});
 
 
