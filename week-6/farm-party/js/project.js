@@ -10,7 +10,7 @@ $(document).ready(function(){
 					"top": "50%"
 					},5000);
 			$("#night").animate({
-					"opacity": ".60",
+					"opacity": "1",
 					},6000);
 			$("#moon").animate({
 					"top": "15%",
