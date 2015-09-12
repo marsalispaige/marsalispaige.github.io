@@ -151,8 +151,9 @@ nav a[href*="babypaige"]:hover{
 	background-color: #e74c3c;
 }
 
-a[href*="battellojc"]{
+div a[href*="battello"]{
 	display: block;
+	clear: both;
 }
 
 
