@@ -151,7 +151,7 @@ nav a[href*="babypaige"]:hover{
 	background-color: #e74c3c;
 }
 
-div a[href*="battello"]{
+div a[href*="batello"]{
 	display: block;
 	clear: both;
 }
@@ -569,7 +569,7 @@ li.list-header{
 	.content-img-left{
 		display: block;
 		width: 95%;
-		margin: 3% 0;
+		margin: 3% auto;
 		min-width: 0;
 		padding: 1px;
 	}
@@ -577,7 +577,7 @@ li.list-header{
 	.content-img-right{
 		display: block;
 		width: 95%;
-		margin: 3% 0;
+		margin: 3% auto;
 		min-width: 0;
 		padding: 1px;
 	}
@@ -696,7 +696,7 @@ h1.content-header{
 	nav{
 		top: 29px;
 		width: 100%;
-		
+
 	}
 
 
