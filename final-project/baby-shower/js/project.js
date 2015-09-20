@@ -71,6 +71,8 @@ $(document).ready(function(){
 		$("#big-image").hide();
 	}
 
+	else{$("#big-image").fadeIn(400)};
+
 
 	$("#play-movie").click(function(){
 
