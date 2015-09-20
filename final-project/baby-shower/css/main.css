@@ -345,6 +345,7 @@ footer a:hover{
 
 .content-img-left{
 	display: inline-block;
+	float: left;
 	padding: 5px;
 	background-color: #fff;
 	border: 1px solid #CECCCC;
@@ -359,6 +360,7 @@ footer a:hover{
 
 .content-img-right{
 	display: inline-block;
+	float: right;
 	padding: 5px;
 	background-color: #fff;
 	border: 1px solid #CECCCC;
@@ -371,22 +373,22 @@ footer a:hover{
 }
 
 .content-block-right{
-	float: right;
+	display: inline-block;
 	border-right: 1px solid #D4D8DC;
 	width: 50%;
-	
 	padding:2%;
-	margin: 0 ;
+	margin: 0 0 0 40px;
+	vertical-align: top;
 
 }
 
 .content-block-left{
-	float: left;
+	display: inline-block;
 	border-left: 1px solid #D4D8DC;
 	width: 50%;
-	height: 240px;
 	padding:2%;
-	margin: 0 ;
+	margin: 0 40px 0 0 ;
+	vertical-align: top;
 }
 
 .content-block-right h3{
@@ -542,7 +544,7 @@ li.list-header{
 
 	.content-img-left{
 
-	min-width: 300px;
+	min-width: 0;
 	margin: 7% auto;
 	
 
@@ -550,7 +552,7 @@ li.list-header{
 }
 
 .content-img-right{
-	min-width: 300px;
+	min-width: 0;
 	margin: 7% auto;
 
 	
@@ -580,11 +582,12 @@ li.list-header{
 		margin: 3% auto;
 		min-width: 0;
 		padding: 1px;
+		float: none;
 	}
 
 	.content-block-right{
 	float: none;
-	border-right: 1px solid #D4D8DC;
+	border-right: none;
 	width: 90%;
 	height: auto;
 	display: block;
@@ -595,7 +598,7 @@ li.list-header{
 
 .content-block-left{
 	float: none;
-	border-left: 1px solid #D4D8DC;
+	border-left: none;
 	width: 90%;
 	height: auto;
 	display: block;
@@ -638,12 +641,12 @@ h1.content-header{
 
 	#page-header{
 		overflow: hidden;
-		height: 30px;
+		height: 50px;
 	}
 
 	#page-header-title{
-		font-size: .8em;
-		margin: 0 auto;
+		font-size: 1.5em;
+		margin: 9px auto;
 	}
 
 	#page-header-title h1{
@@ -655,8 +658,8 @@ h1.content-header{
 	}
 
 	#menuBtn{
-		font-size: 1em;
-		margin: 4px 10px;
+		font-size: 1.5em;
+		margin: 15px 10px;
 	}
 
 	.leader-img{

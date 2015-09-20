@@ -54,11 +54,16 @@ $(document).ready(function(){
 	});
 
 
-	$(".thumb").click(function(){
-		$("#big-image").hide();
-		$("#big-image").attr("src", $(this).attr("src"));
-		$("#big-image").fadeIn(400);
-	});
+	if ($(window).width() > 870) {
+
+
+				$(".thumb").click(function(){
+					$("#big-image").hide();
+					$("#big-image").attr("src", $(this).attr("src"));
+					$("#big-image").fadeIn(400);
+				});
+
+			};
 
 	$("#play-movie").click(function(){
 
