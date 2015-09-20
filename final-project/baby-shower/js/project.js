@@ -63,7 +63,8 @@ $(document).ready(function(){
 					$("#big-image").fadeIn(400);
 				});
 
-			};
+			}
+	else{alert("false")};
 
 	$("#play-movie").click(function(){
 
