@@ -64,7 +64,12 @@ $(document).ready(function(){
 			$("#big-image").attr("src", $(this).attr("src"));
 			$("#big-image").fadeIn(400);
 		}
+
 	});
+
+	if ($(window).width() < 870) {
+		$("#big-image").hide();
+	}
 
 
 	$("#play-movie").click(function(){
