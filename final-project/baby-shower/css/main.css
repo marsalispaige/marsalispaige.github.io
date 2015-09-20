@@ -681,6 +681,10 @@ h1.content-header{
 		height: 56.25%;
 	}
 
+	#video-embed iframe{
+		width: 100%;
+	}
+
 	.thumbnails{
 		margin: 20px auto;
 	}
@@ -698,7 +702,7 @@ h1.content-header{
 	}	
 
 	nav{
-		top: 29px;
+		top: 50px;
 		width: 100%;
 
 	}
