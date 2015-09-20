@@ -566,23 +566,24 @@ li.list-header{
 
 	.content-container{
 		width: 100%;
+		padding: 0;
 	}
 
 	.content-img-left{
 		display: block;
-		width: 95%;
+		width: 92%;
 		margin: 3% auto;
 		min-width: 0;
-		padding: 1px;
+		padding: 5px;
 		float: none;
 	}
 
 	.content-img-right{
 		display: block;
-		width: 95%;
+		width: 92%;
 		margin: 3% auto;
 		min-width: 0;
-		padding: 1px;
+		padding: 5px;
 		float: none;
 	}
 
